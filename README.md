@@ -77,3 +77,134 @@ The visual below illustrates the total number of students per each assessment le
 
 ![2](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/0e92eda2-b444-4d55-932f-8093ec910dff)
 
+#
+#### Q3. Percentage of students (calculated from the total number of students) per each assessment level broken down by: 
+ * Semester (Fall, Winter, & Spring)
+ * School Year
+ * School
+
+#### Solution:
+Once Again it was difficult to show data trends in a single visual with three different breakdowns. To solve this challenge, I added a filter slicer to the dashboard. The filter slicer allows users to select a specific semester, school year, and school.
+
+To address this, I initially implemented a filter (slicer) to facilitate viewing data trends according to different breakdowns such as semester, school year, and school.
+
+Below is the visual representing the percentage of  Total number of students per each assessment level for the Spring Semester of the 2021/2022 School Year across all schools. With the applied filter, we observe the following:
+ * Above Average Assessment level: 21.84% students
+ * Average Assessment level: 61.49% students
+ * Below Average Assessment level: 44.83% students
+ * Good Assessment level: 9.77% students
+ * Poor Assessment level: 32.76% students
+ * Very Good Assessment level: 2.87% students
+ * Very Poor Assessment level: 21.84% students
+
+![1](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/39ee5f68-11f7-4769-90e9-0b1ff6506b71)
+
+![4](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/a0e28198-c37c-479f-9cd9-e91f7a03ac1c)
+
+#
+
+#### Q4. Percentage of students (calculated from the total number of students) per each assessment level group broken down by
+ * Semester (Fall, Winter, & Spring)
+ * School Year
+ * School
+
+#### Solution:
+The visual below illustrates the total number of students per each assessment level group for the Spring semester of the 2021/2022 school year across all schools. According to the applied filter, during the Spring semester of the 2021/2022 school year, there were a total of 67.24% students assessed as Average and Above, while 62.07 students were assessed as Below Average.
+
+![1](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/39ee5f68-11f7-4769-90e9-0b1ff6506b71)
+
+![5](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/18ee90e4-3e06-4fd4-95af-a53007d49c47)
+
+#
+#### Q5. Students' Assessments between 80 and 90 Standard Score in each period go into an Intervention Group (Tier 2). This Group contains 10 Students that require one Teacher. How Many teachers will we require for these Intervention Groups in the Winter of 2023 / 2024 based on 2023 / 2024 Fall Results?
+
+#### Solution:
+We have requested that, Students Assessments between 80-90 Standard Score in each period go into an Intervention Group (Tier 2). 
+
+So, total students who obtained 80-90 score is 👉 732
+
+This Group contains 10 Students that requires one Teacher.
+ 
+####  732/10= Approx 73 Teachers will require in winter.
+
+![6](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/50bb6e67-9a67-493a-a473-3145d3704917)
+
+#
+
+#### Q6. Students' Assessments below 80 Standard Score in each period go into an Intervention Group (Tier 3). This Group contains 5 Students and requires one Teacher. How Many teachers will we require for these Intervention Groups in the Winter of 2023 / 2024 based on 2023 / 2024 Fall Results?
+
+#### Solution:
+We have requested that, Students Assessments between bellow 80 Standard Score in each period go into an Intervention Group (Tier 3). 
+
+So, total students who obtained bellow 80 score is 👉 796
+
+This Group contains 5 Students that requires one Teacher.
+
+#### 796/5= Approx 159 Teachers will require in winter.
+
+![7](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/c6f552ae-88c5-496d-808c-e6a017fd99d1)
+
+#
+
+#### Q7. What are projected testing costs for the Winter of 2023 / 2024 based on 2023 / 2024 Fall results?
+
+#### Solution:
+ * Projected Testing Cost for Winter 2023/2024 $7,493
+
+ * Detailed Distribution
+
+| Assessment Type | Cost | Total Student | Total Cost |
+|---|---|---|--|
+| TOSREC | $1 | 2036 | $2,036 |
+| TOSWRF | $1.5 | 2018 | $3,027 |
+| TOWRE | $1.2 | 2015 | $2,418 |
+
+![8](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/ade8470f-4290-4d7a-834a-0da864c3891c)
+
+#
+
+## Optional:
+This section is optional section its mean page 2 stared here, in this section I presented some insights to solve some optional question.
+
+#### Q1. Show AVG Standard Score by Assessment Type?
+For this question I used a donught chart to show avg score by assement type. my analysis reveals that **TOSREC 80.67**, **TOSWR 97.23** and **TOWRE 91.95** avg score.
+
+![9](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/682b0767-9df3-4f80-b9fa-565e769fbfa9)
+
+#
+
+#### Q2. Showcase the average score trend throughout the years?
+The bar chart visual shows that the average score has increased over time. In 2021, the average score was 91.60. In 2022, the average score was 93.87. And in 2023, the average score was 93.84.
+
+![10](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/3ddddc8a-48c0-4a00-ac5c-818bc4c4aac4)
+
+#
+#### Q3. Showcase the total number of student trend throughout the years?
+The bar chart visual shows that the total number of student has increased over time. In 2021, the total number of student was 2110. In 2022, the total number of student was 2675. And in 2023, the total number of student was 2743.
+
+![11](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/08fc1451-dea3-45b2-be3b-9f207d26dbfd)
+
+#
+#### Q4. Showcase the Total Student by School?
+For this analysis, I have created a bar chart that illustrates the total number of students for each school. This visualization provides a clear overview of the student population across different schools.
+
+According to the analysis, the **High Level Public School** boasts the highest number of students, with **563 students**, followed closely by **La Crete Public School**, which has **491 students**. These two schools emerge as the top performers based on total student count.
+
+![12](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/6ce80789-7e55-42aa-8b0f-5855d53ae878)
+
+#
+#### Q4. Showcase the Total Teacher by School?
+I've created a bar chart showcasing the total number of teachers by school. This visualization allows for a clear comparison of each school based on the total number of teachers they have.
+
+Upon analysis, it's evident that **High Level Public School** ranks the highest with **73 teachers**, closely followed by **La Crete Public School** with **72 teachers**. These two schools emerge as the top performers in terms of total teachers.
+
+#
+#### Q5. Showcase Total Student by Gender?
+To showcase the distribution of total students by gender, I've utilized donut charts, providing a clear and visually appealing representation of the data.
+
+Based pn my analysis, it's evident that the majority of students are male, totaling 3270, while female students total 3120. 
+
+![13](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/aaf3da97-f676-476d-ba58-ab4a705a0a13)
+
+
+
