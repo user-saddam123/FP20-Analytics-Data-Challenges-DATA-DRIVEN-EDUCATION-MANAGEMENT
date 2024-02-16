@@ -7,7 +7,7 @@
 #
 ## Table of Content:
  1. [Problem Statement](#problem-statement)
- 2.[Project Background](#project-background-information)
+ 2. [Project Background](#project-background-information)
  3.[Projects Objective](#projects-challenge-objective)
  4.[Dataset](#dataset)
  5.[Collaboration](#collaboration)
