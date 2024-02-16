@@ -6,7 +6,7 @@
 
 #
 ### Problem Statement
-The Fort Vermilion School Division (FVSD) is a governmental organization responsible for overseeing schools in the northwestern corner of Alberta, Canada. FVSD is renowned for their commitment to data-driven planning and decision-making to empower every student with equal opportunities and care in education.
+The **Fort Vermilion School Division (FVSD)** is a governmental organization responsible for overseeing schools in the northwestern corner of Alberta, Canada. FVSD is renowned for their commitment to data-driven planning and decision-making to empower every student with equal opportunities and care in education.
 
 #
 ### Project Background information:
@@ -29,12 +29,12 @@ This challenge is brought to you in collaboration with ZoomCharts, integrating t
 #
 
 ### Tools Used:
-In line with the objectives and project requirements, I have utilized Power BI, a powerful business intelligence tool, for dashboard creation.
+In line with the objectives and project requirements, I have utilized **Power BI**, a powerful business intelligence tool, for dashboard creation.
 
 #
 
 ### Dashboard Overview:
-I have developed a Power BI dashboard consisting of two pages to meet the objectives of the challenge. The first page is based on requested question, and second page is optional
+I have developed a Power BI dashboard consisting of **two pages** to meet the objectives of the challenge. The first page is based on **requested question**, and second page is **optional**.
 
 ##
 ## Questions & Solutions
@@ -50,13 +50,13 @@ One challenge I faced was that it was difficult to show data trends in a single 
 To address this, I initially implemented a filter (slicer) to facilitate viewing data trends according to different breakdowns such as semester, school year, and school.
 
 Below is the visual representing the Total number of students per each assessment level for the Spring Semester of the 2021/2022 School Year across all schools. With the applied filter, we observe the following:
- * Above Average Assessment level: 601 students
- * Average Assessment level: 1512 students
- * Below Average Assessment level: 707 students
- * Good Assessment level: 330 students
- * Poor Assessment level: 429 students
- * Very Good Assessment level: 117 students
- * Very Poor Assessment level: 272 students
+ * Above Average Assessment level: **601 students**
+ * Average Assessment level: **1512 students**
+ * Below Average Assessment level: **707 students**
+ * Good Assessment level: **330 students**
+ * Poor Assessment level: **429 students**
+ * Very Good Assessment level: **117 students**
+ * Very Poor Assessment level: **272 students**
 
 ![1](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/39ee5f68-11f7-4769-90e9-0b1ff6506b71)
 
@@ -89,13 +89,13 @@ Once Again it was difficult to show data trends in a single visual with three di
 To address this, I initially implemented a filter (slicer) to facilitate viewing data trends according to different breakdowns such as semester, school year, and school.
 
 Below is the visual representing the percentage of  Total number of students per each assessment level for the Spring Semester of the 2021/2022 School Year across all schools. With the applied filter, we observe the following:
- * Above Average Assessment level: 21.84% students
- * Average Assessment level: 61.49% students
- * Below Average Assessment level: 44.83% students
- * Good Assessment level: 9.77% students
- * Poor Assessment level: 32.76% students
- * Very Good Assessment level: 2.87% students
- * Very Poor Assessment level: 21.84% students
+ * Above Average Assessment level: **21.84%** students
+ * Average Assessment level: **61.49%** students
+ * Below Average Assessment level: **44.83%** students
+ * Good Assessment level: **9.77%** students
+ * Poor Assessment level: **32.76%** students
+ * Very Good Assessment level: **2.87%** students
+ * Very Poor Assessment level: **21.84%** students
 
 ![1](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/39ee5f68-11f7-4769-90e9-0b1ff6506b71)
 
@@ -119,9 +119,9 @@ The visual below illustrates the total number of students per each assessment le
 #### Q5. Students' Assessments between 80 and 90 Standard Score in each period go into an Intervention Group (Tier 2). This Group contains 10 Students that require one Teacher. How Many teachers will we require for these Intervention Groups in the Winter of 2023 / 2024 based on 2023 / 2024 Fall Results?
 
 #### Solution:
-We have requested that, Students Assessments between 80-90 Standard Score in each period go into an Intervention Group (Tier 2). 
+We have requested that, Students Assessments between **80-90 Standard Score** in each period go into an Intervention Group (Tier 2). 
 
-So, total students who obtained 80-90 score is 👉 732
+So, total students who obtained 80-90 score is 👉 **732**
 
 This Group contains 10 Students that requires one Teacher.
  
@@ -136,7 +136,7 @@ This Group contains 10 Students that requires one Teacher.
 #### Solution:
 We have requested that, Students Assessments between bellow 80 Standard Score in each period go into an Intervention Group (Tier 3). 
 
-So, total students who obtained bellow 80 score is 👉 796
+So, total students who obtained bellow 80 score is 👉 **796**
 
 This Group contains 5 Students that requires one Teacher.
 
@@ -149,7 +149,7 @@ This Group contains 5 Students that requires one Teacher.
 #### Q7. What are projected testing costs for the Winter of 2023 / 2024 based on 2023 / 2024 Fall results?
 
 #### Solution:
- * Projected Testing Cost for Winter 2023/2024 $7,493
+ * Projected Testing Cost for Winter 2023/2024 **$7,493**
 
  * Detailed Distribution
 
@@ -206,5 +206,45 @@ Based pn my analysis, it's evident that the majority of students are male, total
 
 ![13](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/aaf3da97-f676-476d-ba58-ab4a705a0a13)
 
+#
 
+#### Q6. Showcase Total Student by Semester, Assesement Level Group and Year
+For showcasing the distribution of total students by Semester, Assessment Level Group, and Year, I've utilized a bar chart. This visualization offers a comprehensive view of the data across these three dimensions.
 
+![14](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/60704fcb-0e17-4feb-b7b8-feac3b1e6c3b)
+
+#
+### Full Dashboard View
+**Page 1:**
+
+![1](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/84b6ef53-c42f-4d87-9dc1-0088f325bd75)
+
+**Page 2:**
+
+![2](https://github.com/user-saddam123/FP20-Analytics-Data-Challenges-DATA-DRIVEN-EDUCATION-MANAGEMENT/assets/123800896/2ac9b08d-7cb7-404b-adf1-9afb50a08d85)
+
+#
+### My Learnings:
+This challenge was a great opportunity to learn and apply advanced data analysis techniques. I also learned how to create visually appealing and informative dashboards that can be used to make data-driven decisions.
+
+also This project has been truly rewarding, allowing me to showcase my work and further my journey as an aspiring data analyst. It not only adds value to my portfolio but also demonstrates my capabilities in handling complex datasets.
+
+**I'm grateful to Federico Pastor and Zoomcharts for providing this opportunity to learn and grow as a data analyst.**
+
+Check out my submission and let me know what you think!
+
+Your feedback is highly appreciated, and I encourage you to like, comment, and provide your insights. Feedback plays a crucial role in my growth, so please feel free to share any suggestions.
+
+Apart from this project, I have also completed over **20 Power BI projects**, which you can explore on **NovyPro** at [NovyPro Portfolio](https://www.novypro.com/profile_projects/saddamansari)
+
+Thank you for taking the time to view my project. I hope you enjoyed it.
+
+#
+
+Created and Analyzed by:
+
+Saddam Ansari @Aspiring Data Analyst LinkedIn Link
+
+Location: India
+
+### THE END
